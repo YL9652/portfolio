@@ -12,19 +12,12 @@ catrgories.addEventListener('click', (event) => {
     return;
   }
 
-  handleActiveSelection(event.target);
-  filterProjects(filter);
-});
-
   // Active menu switch
-function handleActiveSelection(target) {
   const active = document.querySelector('.category--selected');
   active.classList.remove('category--selected');
   event.target.classList.add('category--selected');
-}
 
   // Project filtering
-function filterProjects(filter) {
   projectsContainer.classList.add('anim-out');
 
   projects.forEach(project => {
@@ -39,4 +32,4 @@ function filterProjects(filter) {
   setTimeout(() => {
     projectsContainer.classList.remove('anim-out');
   }, 250);
-}
+});
