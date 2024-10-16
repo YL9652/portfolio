@@ -1,3 +1,5 @@
+'use strict';
+
 // Add a class, header--dark, when scholl down
 const header = document.querySelector('.header');
 //const headerHeight = header.getBoundingClientRect().height;
