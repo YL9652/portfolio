@@ -3,6 +3,7 @@
 // 3. active the visual item
 // - first/top section if more than one sections
 // - footer
+'use strict';
 
 const sectionIds = [
   '#home',
