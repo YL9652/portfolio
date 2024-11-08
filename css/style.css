@@ -61,6 +61,7 @@ ul {
 a {
   text-decoration: none;
   color: var(--color-text);
+  cursor: pointer;
 }
 
 button {
@@ -371,6 +372,10 @@ button:focus {
   gap: 1rem;
 }
 
+.categories button:not(.category--selected):hover {
+  color: var(--color-accent);
+}
+
 .category {
   position: relative;
   color: var(--color-white);
@@ -532,6 +537,10 @@ button:focus {
   background-color: var(--color-white);
   mask: var(--divider-arrow);
   -webkit-mask: var(--divider-arrow);
+}
+
+#contact a:hover {
+  color: var(--color-accent);
 }
 
 .contact__links {
