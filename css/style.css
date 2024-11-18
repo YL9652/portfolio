@@ -43,6 +43,7 @@ html {
 body {
   font-family: 'Open Sans', 'Sans-serif';
   margin: 0;
+  overflow-x: hidden;
 }
 
 h1,
@@ -271,6 +272,10 @@ button:focus {
   margin-bottom: 1rem;
 }
 
+.job img {
+  width: 100px;
+}
+
 .job__name {
   color: var(--color-primary);
 }
@@ -480,6 +485,18 @@ button:focus {
   margin-bottom: 2rem;
 }
 
+.testimonial:nth-child(even) .fa-comment-dots {
+  order: 1;
+}
+
+.fa-regular.fa-comment-dots {
+  transform: scaleX(-1);
+}
+
+.fa-comment-dots {
+  font-size: 5rem;
+}
+
 .testimonial:nth-child(even) .testimonial__img {
   order: 1;
 }
@@ -515,6 +532,8 @@ button:focus {
   border-radius: 100%;
   text-align: center;
   box-shadow: 5px 5px 0px 0px var(--color-accent);
+  border: 1px solid var(--color-primary-variant);
+  z-index: 9;
   transition: opacity 300ms ease-in;
 }
 
