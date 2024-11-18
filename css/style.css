@@ -460,6 +460,10 @@ button:focus {
   transform: translateY(0px);
 }
 
+.project__metadata > p {
+  padding: 0 1rem;
+}
+
 .project__title::after {
   content: '';
   display: block;
