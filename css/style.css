@@ -236,12 +236,17 @@ button:focus {
 }
 
 .major {
+  flex: 1;
   background-color: var(--color-primary-variant);
   padding: 2rem 1rem;
   color: var(--color-text);
   border-radius: 1rem;
   cursor: default;
   box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.38);
+}
+
+.major p {
+  padding: 0 2rem;
 }
 
 .major__icon {
@@ -455,13 +460,13 @@ button:focus {
   transform: translateY(-10px);
 }
 
+.project__metadata > p {
+  padding: 0 1rem;
+}
+
 .project__metadata:hover {
   opacity: 0.8;
   transform: translateY(0px);
-}
-
-.project__metadata > p {
-  padding: 0 1rem;
 }
 
 .project__title::after {
