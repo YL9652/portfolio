@@ -56,7 +56,10 @@ function filterProjects(filter) {
     console.log(project.dataset.type);
     // Logs the `data-type` attribute of each project to the console for debugging
 
-    if (filter == 'all' || filter == project.dataset.type) {
+    const projectTypes = project.dataset.type.split(' ');
+    // Split the `data-type` attribute into an array of types
+
+    if (filter === 'all' || projectTypes.includes(filter)) {
       // Checks if the filter is 'all' or matches the project's `data-type`
 
       project.style.display = 'block';
