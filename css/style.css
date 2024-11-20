@@ -44,6 +44,7 @@ body {
   font-family: 'Open Sans', 'Sans-serif';
   margin: 0;
   overflow-x: hidden;
+  width: 100%;
 }
 
 h1,
@@ -113,7 +114,7 @@ button:focus {
 
 .header--dark {
   background-color: var(--color-primary);
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 8px;
 }
 
 .header__logo {
@@ -568,6 +569,14 @@ button:focus {
 
 #contact a:hover {
   color: var(--color-accent);
+}
+
+#contact .description > a {
+  text-decoration: underline;
+}
+
+#contact .description > a:hover {
+  text-decoration: none;
 }
 
 .contact__links {
