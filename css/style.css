@@ -525,7 +525,6 @@ button:focus {
 
 .testimonial__bubble__name {
   color: var(--color-accent);
-  font-weight: bold;
   filter: brightness(70%);
 }
 
