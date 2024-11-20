@@ -41,10 +41,10 @@ html {
 }
 
 body {
+  width: 100%;
   font-family: 'Open Sans', 'Sans-serif';
   margin: 0;
   overflow-x: hidden;
-  width: 100%;
 }
 
 h1,
