@@ -100,7 +100,7 @@ button:focus {
 
 /* Header  */
 .header {
-  background-color: transparent;
+  background-color: #fff;
   position: fixed;
   top: 0;
   width: 100%;
